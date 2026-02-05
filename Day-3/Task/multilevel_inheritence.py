@@ -32,6 +32,6 @@ class MobilePhone(ElectronicProduct):
         print("Storage:",self.storage)
         print("Warranty:",self.warranty)
 
-samsung = MobilePhone("Smartphone","SAMSUNG","1Lakh","12GB","256GB","2Years")
+samsung = MobilePhone("SAMSUNG S25 ULTRA","SAMSUNG","1.5Lakh","12GB","256GB","2Years")
 samsung.display_mobile_details()
 
