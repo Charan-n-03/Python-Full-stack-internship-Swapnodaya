@@ -1,7 +1,7 @@
-def admin_only(func):
+def admin_only(dashboard):
     def wrapper(username):
         if username == "admin":
-            func(username)
+            dashboard(username)
         else:
             print("Access Denied")
     return wrapper
